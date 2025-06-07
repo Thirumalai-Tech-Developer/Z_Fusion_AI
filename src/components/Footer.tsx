@@ -48,7 +48,7 @@ const Footer = () => {
                 <a href="Home" className="text-gray-400 hover:text-orange-500 transition-colors">Home</a>
               </li>
               <li>
-                <a href="Service" className="text-gray-400 hover:text-orange-500 transition-colors">Services</a>
+                <a href="Services" className="text-gray-400 hover:text-orange-500 transition-colors">Services</a>
               </li>
               <li>
                 <a href="Career" className="text-gray-400 hover:text-orange-500 transition-colors">Career</a>
@@ -67,19 +67,19 @@ const Footer = () => {
             <h3 className="text-lg font-semibold mb-4 text-white">Services</h3>
             <ul className="space-y-2">
               <li>
-                <a href="Service" className="text-gray-400 hover:text-orange-500 transition-colors">AI Solutions</a>
+                <a href="Services" className="text-gray-400 hover:text-orange-500 transition-colors">AI Solutions</a>
               </li>
               <li>
-                <a href="Service" className="text-gray-400 hover:text-orange-500 transition-colors">Web Development</a>
+                <a href="Services" className="text-gray-400 hover:text-orange-500 transition-colors">Web Development</a>
               </li>
               <li>
-                <a href="Service" className="text-gray-400 hover:text-orange-500 transition-colors">Mobile Apps</a>
+                <a href="Services" className="text-gray-400 hover:text-orange-500 transition-colors">Mobile Apps</a>
               </li>
               <li>
-                <a href="Service" className="text-gray-400 hover:text-orange-500 transition-colors">Cloud Services</a>
+                <a href="Services" className="text-gray-400 hover:text-orange-500 transition-colors">Cloud Services</a>
               </li>
               <li>
-                <a href="Service" className="text-gray-400 hover:text-orange-500 transition-colors">IT Consulting</a>
+                <a href="Services" className="text-gray-400 hover:text-orange-500 transition-colors">IT Consulting</a>
               </li>
             </ul>
           </div>

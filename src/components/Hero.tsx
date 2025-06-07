@@ -1,11 +1,12 @@
 import { Button } from "@/components/ui/button";
 import { motion } from "framer-motion";
 import { staggerContainer, fadeIn } from "@/lib/motion";
+import hero from "@/assets/images/Hero.jpeg";
 
 const Hero = () => {
   return (
     <section 
-      id="home" 
+      id="Home" 
       className="relative pt-32 pb-20 md:pt-36 md:pb-24 bg-orange-50"
     >
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
@@ -29,7 +30,7 @@ const Hero = () => {
             </p>
             <div className="flex flex-col sm:flex-row justify-center lg:justify-start space-y-4 sm:space-y-0 sm:space-x-4">
               <Button size="lg" asChild>
-                <a href="Service">Explore Services</a>
+                <a href="Services">Explore Services</a>
               </Button>
               <Button size="lg" variant="outline" asChild>
                 <a href="Contact">Contact Us</a>
@@ -49,7 +50,7 @@ const Hero = () => {
               <div className="relative">
                 <div className="w-full h-full absolute rounded-2xl bg-gradient-to-br from-orange-200 via-orange-500 to-red-500 p-1 transform rotate-6 scale-105"></div>
                 <img 
-                  src="https://images.unsplash.com/photo-1573164713988-8665fc963095?auto=format&fit=crop&q=80&w=1200&h=900"
+                  src={hero}
                   alt="Tech office with modern workstations" 
                   className="relative rounded-2xl shadow-xl z-10 w-full object-cover object-center"
                 />

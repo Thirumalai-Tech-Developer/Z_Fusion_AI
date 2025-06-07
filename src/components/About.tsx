@@ -3,6 +3,8 @@ import { fadeIn, staggerContainer } from "@/lib/motion";
 import SectionHeading from "@/components/ui/section-heading";
 import TeamMember from "@/components/ui/team-member";
 import { CheckCircle2 } from "lucide-react";
+import upper from "@/assets/images/About_upper.jpeg"
+import lower from "@/assets/images/About_lower.jpeg"
 
 const About = () => {
   const values = [
@@ -39,7 +41,7 @@ const About = () => {
   ];
 
   return (
-    <section id="about" className="py-16 md:py-24 bg-orange-50">
+    <section id="About" className="py-16 md:py-24 bg-orange-50">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <motion.div
           variants={staggerContainer}
@@ -75,7 +77,7 @@ const About = () => {
             >
               <div className="w-full h-[450px] relative rounded-lg overflow-hidden shadow-xl">
                 <img 
-                  src="https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&q=80&w=800&h=900" 
+                  src={upper} 
                   alt="GT_TECH Team Collaboration" 
                   className="w-full h-full object-cover object-center"
                 />
@@ -83,7 +85,7 @@ const About = () => {
               </div>
               <div className="absolute -bottom-6 -left-6 w-64 h-64 rounded-lg overflow-hidden shadow-xl hidden md:block">
                 <img 
-                  src="https://images.unsplash.com/photo-1600880292203-757bb62b4baf?auto=format&fit=crop&q=80&w=300&h=300" 
+                  src={lower} 
                   alt="GT_TECH Office" 
                   className="w-full h-full object-cover object-center"
                 />

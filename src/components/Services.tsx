@@ -53,7 +53,7 @@ const Services = () => {
   ];
 
   return (
-    <section id="services" className="py-16 md:py-24 bg-orange-50">
+    <section id="Services" className="py-16 md:py-24 bg-orange-50">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <motion.div
           variants={staggerContainer}
@@ -90,7 +90,7 @@ const Services = () => {
               Looking for a custom solution? Our team of experts can develop tailored solutions to meet your specific business needs.
             </p>
             <a
-              href="#contact"
+              href="Contact"
               className="inline-flex items-center text-orange-500 font-medium hover:underline"
             >
               Discuss your project with us <ChevronRight className="ml-1 h-4 w-4" />

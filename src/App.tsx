@@ -18,7 +18,7 @@ function Router() {
       <Route path="/" component={Home} />
       <Route path="/Home" component={Home} />
       <Route path="/About" component={AboutUS} />
-      <Route path="/Service" component={Service} />
+      <Route path="/Services" component={Service} />
       <Route path="/Career" component={Careers} />
       <Route path="/Contact" component={ContactUS} />
       <Route component={NotFound} />

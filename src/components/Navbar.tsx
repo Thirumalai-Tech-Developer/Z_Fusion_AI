@@ -28,7 +28,7 @@ const Navbar = () => {
 
   const navLinks = [
     { href: "Home", label: "Home" },
-    { href: "Service", label: "Services" },
+    { href: "Services", label: "Services" },
     { href: "Career", label: "Career" },
     { href: "About", label: "About Us" },
     { href: "Contact", label: "Contact" },
@@ -65,7 +65,7 @@ const Navbar = () => {
           {/* Contact Button - Desktop */}
           <div className="hidden md:block">
             <Button asChild>
-              <a href="#contact">Get in Touch</a>
+              <a href="Contact">Get in Touch</a>
             </Button>
           </div>
 
@@ -103,7 +103,7 @@ const Navbar = () => {
             ))}
             <div className="pt-2">
               <Button className="w-full" asChild>
-                <a href="#contact" onClick={() => setMobileMenuOpen(false)}>
+                <a href="Contact" onClick={() => setMobileMenuOpen(false)}>
                   Get in Touch
                 </a>
               </Button>

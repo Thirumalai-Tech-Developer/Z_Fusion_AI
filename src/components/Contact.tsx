@@ -84,7 +84,7 @@ const Contact = () => {
   };  
 
   return (
-    <section id="contact" className="py-16 md:py-24 bg-orange-50">
+    <section id="Contact" className="py-16 md:py-24 bg-orange-50">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <motion.div
           variants={staggerContainer}
