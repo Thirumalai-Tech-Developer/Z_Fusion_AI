@@ -13,6 +13,10 @@ const Home = () => {
 
   return (
     <div>
+      <a href="About"></a>
+      <a href="Services"></a>
+      <a href="Contact"></a>
+      <a href="Career"></a>
       <Hero />
     </div>
   );

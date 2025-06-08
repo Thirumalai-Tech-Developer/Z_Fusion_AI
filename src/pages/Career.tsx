@@ -13,6 +13,10 @@ const Career = () => {
 
   return (
     <div>
+      <a href="Home"></a>
+      <a href="Services"></a>
+      <a href="Contact"></a>
+      <a href="About"></a>
       <Portfolio />
     </div>
   );

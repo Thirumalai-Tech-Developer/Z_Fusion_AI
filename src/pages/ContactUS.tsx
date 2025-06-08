@@ -13,6 +13,10 @@ const ContactUS = () => {
 
   return (
     <div>
+      <a href="Home"></a>
+      <a href="Services"></a>
+      <a href="About"></a>
+      <a href="Career"></a>
       <Contact />
     </div>
   );
