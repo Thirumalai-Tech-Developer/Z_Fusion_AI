@@ -18,6 +18,7 @@ const Career = () => {
       <a href="Contact"></a>
       <a href="About"></a>
       <Portfolio />
+      <Contact />
     </div>
   );
 };
