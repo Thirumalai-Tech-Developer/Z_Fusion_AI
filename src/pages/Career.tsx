@@ -4,6 +4,7 @@ import Portfolio from "@/components/Portfolio";
 import About from "@/components/About";
 import Contact from "@/components/Contact";
 import { useEffect } from "react";
+import {Helmet} from "react-helmet";
 
 const Career = () => {
   // Set document title
@@ -19,6 +20,10 @@ const Career = () => {
       <a href="About"></a>
       <Portfolio />
       <Contact />
+      <Helmet>
+          <title>Careers at ZFusionAI | AI Internships & Jobs</title>
+          <meta name="description" content="Join ZFusionAI's mission. Explore internships, AI roles, and remote opportunities to build the future of AI." />
+      </Helmet>
     </div>
   );
 };
