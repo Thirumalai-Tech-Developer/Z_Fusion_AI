@@ -88,9 +88,9 @@ const Hero = () => {
             className="text-left lg:text-left"
           >
             <div>
-              <h1 className="text-5xl md:text-6xl font-extrabold text-gray-900 leading-tight mb-6">
+              <h2 className="text-5xl md:text-6xl font-extrabold text-gray-900 leading-tight mb-6">
                 Why we are?
-              </h1>
+              </h2>
               <p className="text-lg md:text-xl text-gray-700 mb-10 leading-relaxed">
                 <br className="hidden md:block" />
                 We stand apart by offering a <span className="font-bold text-black">personalized, one-on-one expert consultation</span> before project confirmation — ensuring clarity, confidence, and alignment from day one.
@@ -107,9 +107,9 @@ const Hero = () => {
             className="text-left lg:text-left"
           >
             <div>
-              <h1 className="text-5xl md:text-6xl font-extrabold text-gray-900 leading-tight mb-6">
+              <h2 className="text-5xl md:text-6xl font-extrabold text-gray-900 leading-tight mb-6">
                 What We Do
-              </h1>
+              </h2>
               <p className="text-lg md:text-xl text-gray-700 mb-10 leading-relaxed">
                 We specialize in AI-driven solutions, full-stack development, and custom software tailored to your business goals. Our services include:
               </p>
@@ -128,9 +128,9 @@ const Hero = () => {
             className="text-left lg:text-left"
           >
             <div>
-              <h1 className="text-5xl md:text-6xl font-extrabold text-gray-900 leading-tight mb-6">
+              <h2 className="text-5xl md:text-6xl font-extrabold text-gray-900 leading-tight mb-6">
                 Meet the Team
-              </h1>
+              </h2>
               <p className="text-lg md:text-xl text-gray-700 mb-10 leading-relaxed">
                 Led by experienced founders <strong>Thirumalai Gunasekaran</strong> and <strong>Karthick C</strong>, our team consists of passionate engineers, data scientists, and innovators dedicated to solving real-world problems.
               </p>

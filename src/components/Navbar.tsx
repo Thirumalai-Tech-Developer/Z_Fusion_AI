@@ -43,10 +43,10 @@ const Navbar = () => {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16 md:h-20">
           <Link href="/">
-            <a className="flex items-center space-x-2 font-bold text-xl text-orange-500">
+            <p className="flex items-center space-x-2 font-bold text-xl text-orange-500">
               <img src={logo} alt="Logo" className="h-8"/>
               <img src={name} alt="name" className="w-44"/>
-            </a>
+            </p>
           </Link>
 
           {/* Desktop Navigation */}
