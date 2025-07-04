@@ -2,6 +2,7 @@ import { Button } from "@/components/ui/button";
 import { motion } from "framer-motion";
 import { staggerContainer, fadeIn } from "@/lib/motion";
 import hero from "@/assets/images/Hero.jpeg";
+import { Link } from "wouter";
 
 const Hero = () => {
   return (
@@ -30,10 +31,10 @@ const Hero = () => {
             </p>
             <div className="flex flex-col sm:flex-row justify-center lg:justify-start space-y-4 sm:space-y-0 sm:space-x-4">
               <Button size="lg" asChild>
-                <a href="Services">Explore Services</a>
+                <Link href="Services">Explore Services</Link>
               </Button>
               <Button size="lg" variant="outline" asChild>
-                <a href="Contact">Contact Us</a>
+                <Link href="Contact">Contact Us</Link>
               </Button>
             </div>
           </motion.div>

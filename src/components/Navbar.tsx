@@ -52,20 +52,20 @@ const Navbar = () => {
           {/* Desktop Navigation */}
           <nav className="hidden md:flex md:space-x-3">
             {navLinks.map((link) => (
-              <a
+              <Link
                 key={link.href}
                 href={link.href}
                 className="text-black hover:text-orange-500 md:px-2 lg:px-3 py-2 text-sm font-medium transition-colors"
               >
                 {link.label}
-              </a>
+              </Link>
             ))}
           </nav>
 
           {/* Contact Button - Desktop */}
           <div className="hidden md:block">
             <Button asChild>
-              <a href="Contact">Get in Touch</a>
+              <Link href="Contact">Get in Touch</Link>
             </Button>
           </div>
 
@@ -92,20 +92,20 @@ const Navbar = () => {
         >
           <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
             {navLinks.map((link) => (
-              <a
+              <Link
                 key={link.href}
                 href={link.href}
                 className="block px-3 py-2 rounded-md text-base font-medium text-gray-900 hover:text-orange-500 hover:bg-gray-50"
                 onClick={() => setMobileMenuOpen(false)}
               >
                 {link.label}
-              </a>
+              </Link>
             ))}
             <div className="pt-2">
               <Button className="w-full" asChild>
-                <a href="Contact" onClick={() => setMobileMenuOpen(false)}>
+                <Link href="Contact" onClick={() => setMobileMenuOpen(false)}>
                   Get in Touch
-                </a>
+                </Link>
               </Button>
             </div>
           </div>

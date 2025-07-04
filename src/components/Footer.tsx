@@ -13,10 +13,10 @@ const Footer = () => {
           {/* Company Info */}
           <div className="mb-6">
             <Link href="/">
-              <a className="flex items-center space-x-2 font-bold text-xl text-white mb-4">
+              <p className="flex items-center space-x-2 font-bold text-xl text-white mb-4">
               <img src={logo} alt="Logo" className="h-8"/>
               <img src={name} alt="name" className="w-44"/>
-              </a>
+              </p>
             </Link>
             <p className="text-gray-400 mb-4">
               Delivering innovative AI solutions and cutting-edge technical services to power your business success.
@@ -45,19 +45,19 @@ const Footer = () => {
             <h3 className="text-lg font-semibold mb-4 text-white">Quick Links</h3>
             <ul className="space-y-2">
               <li>
-                <a href="Home" className="text-gray-400 hover:text-orange-500 transition-colors">Home</a>
+                <Link href="/" className="text-gray-400 hover:text-orange-500 transition-colors">Home</Link>
               </li>
               <li>
-                <a href="Services" className="text-gray-400 hover:text-orange-500 transition-colors">Services</a>
+                <Link href="Services" className="text-gray-400 hover:text-orange-500 transition-colors">Services</Link>
               </li>
               <li>
-                <a href="Career" className="text-gray-400 hover:text-orange-500 transition-colors">Career</a>
+                <Link href="Career" className="text-gray-400 hover:text-orange-500 transition-colors">Career</Link>
               </li>
               <li>
-                <a href="About" className="text-gray-400 hover:text-orange-500 transition-colors">About Us</a>
+                <Link href="About" className="text-gray-400 hover:text-orange-500 transition-colors">About Us</Link>
               </li>
               <li>
-                <a href="Contact" className="text-gray-400 hover:text-orange-500 transition-colors">Contact</a>
+                <Link href="Contact" className="text-gray-400 hover:text-orange-500 transition-colors">Contact</Link>
               </li>
             </ul>
           </div>
@@ -67,19 +67,19 @@ const Footer = () => {
             <h3 className="text-lg font-semibold mb-4 text-white">Services</h3>
             <ul className="space-y-2">
               <li>
-                <a href="Services" className="text-gray-400 hover:text-orange-500 transition-colors">AI Solutions</a>
+                <Link href="Services" className="text-gray-400 hover:text-orange-500 transition-colors">AI Solutions</Link>
               </li>
               <li>
-                <a href="Services" className="text-gray-400 hover:text-orange-500 transition-colors">Web Development</a>
+                <Link href="Services" className="text-gray-400 hover:text-orange-500 transition-colors">Web Development</Link>
               </li>
               <li>
-                <a href="Services" className="text-gray-400 hover:text-orange-500 transition-colors">Mobile Apps</a>
+                <Link href="Services" className="text-gray-400 hover:text-orange-500 transition-colors">Mobile Apps</Link>
               </li>
               <li>
-                <a href="Services" className="text-gray-400 hover:text-orange-500 transition-colors">Cloud Services</a>
+                <Link href="Services" className="text-gray-400 hover:text-orange-500 transition-colors">Cloud Services</Link>
               </li>
               <li>
-                <a href="Services" className="text-gray-400 hover:text-orange-500 transition-colors">IT Consulting</a>
+                <Link href="Services" className="text-gray-400 hover:text-orange-500 transition-colors">IT Consulting</Link>
               </li>
             </ul>
           </div>

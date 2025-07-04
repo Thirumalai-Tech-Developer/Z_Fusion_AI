@@ -3,6 +3,7 @@ import { fadeIn, staggerContainer } from "@/lib/motion";
 import SectionHeading from "@/components/ui/section-heading";
 import ServiceCard from "@/components/ui/service-card";
 import { ChevronRight } from "lucide-react";
+import { Link } from "wouter";
 
 // Import local SVG icons
 import aiIconSrc from "@/assets/icons/brain.ico";
@@ -89,12 +90,12 @@ const Services = () => {
             <p className="text-gray-600 max-w-2xl mx-auto mb-6">
               Looking for a custom solution? Our team of experts can develop tailored solutions to meet your specific business needs.
             </p>
-            <a
+            <Link
               href="Contact"
               className="inline-flex items-center text-orange-500 font-medium hover:underline"
             >
               Discuss your project with us <ChevronRight className="ml-1 h-4 w-4" />
-            </a>
+            </Link>
           </motion.div>
         </motion.div>
       </div>
