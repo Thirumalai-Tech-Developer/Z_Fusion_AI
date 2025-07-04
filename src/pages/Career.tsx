@@ -1,7 +1,4 @@
-import Hero from "@/components/Hero";
-import Services from "@/components/Services";
 import Portfolio from "@/components/Portfolio";
-import About from "@/components/About";
 import Contact from "@/components/Contact";
 import { useEffect } from "react";
 import {Helmet} from "react-helmet";
@@ -14,10 +11,6 @@ const Career = () => {
 
   return (
     <div>
-      <a href="Home"></a>
-      <a href="Services"></a>
-      <a href="Contact"></a>
-      <a href="About"></a>
       <Portfolio />
       <Contact />
       <Helmet>
