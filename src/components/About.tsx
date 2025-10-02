@@ -117,7 +117,7 @@ const About = () => {
             </div>
           </motion.div>
 
-          <motion.div
+          {/* <motion.div
             variants={fadeIn("up", "tween", 0.4, 1)}
             className="mt-24"
           >
@@ -138,7 +138,40 @@ const About = () => {
                 ))}
               </div>
             </div>
+          </motion.div> */}
+          <motion.div variants={fadeIn("up", "tween", 0.4, 1)} className="mt-24">
+            <h3 className="text-2xl font-bold text-gray-900 text-center mb-12">
+              Our Students’ Success
+            </h3>
+            <p className="text-center text-gray-600 mb-10 max-w-3xl mx-auto">
+              At <span className="font-extrabold text-balck">Z</span><span className="font-extrabold text-orange-500">Fusion</span><span className="font-extrabold text-red-500">AI</span>, we don’t just build technology — we build careers. 
+              Our training and mentorship programs have helped students land roles 
+              at top global companies with their skills and dedication.
+            </p>
+            <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+              <motion.div variants={fadeIn("up", "spring", 0.1, 0.75)} className="bg-black/10 p-6 rounded-2xl shadow-sm">
+                <h4 className="font-bold text-gray-900 mb-2">Karthick</h4>
+                <p className="text-orange-600 font-semibold">Placed at Wipro</p>
+              </motion.div>
+              <motion.div variants={fadeIn("up", "spring", 0.2, 0.75)} className="bg-black/10 p-6 rounded-2xl shadow-sm">
+                <h4 className="font-bold text-gray-900 mb-2">Vasanth Kumar</h4>
+                <p className="text-orange-600 font-semibold">Placed at TCS</p>
+              </motion.div>
+              <motion.div variants={fadeIn("up", "spring", 0.3, 0.75)} className="bg-black/10 p-6 rounded-2xl shadow-sm">
+                <h4 className="font-bold text-gray-900 mb-2">Agilan S</h4>
+                <p className="text-orange-600 font-semibold">Placed at Accenture</p>
+              </motion.div>
+              <motion.div variants={fadeIn("up", "spring", 0.4, 0.75)} className="bg-black/10 p-6 rounded-2xl shadow-sm">
+                <h4 className="font-bold text-gray-900 mb-2">Arun Prakash</h4>
+                <p className="text-orange-600 font-semibold">Placed at Infosys</p>
+              </motion.div>
+              <motion.div variants={fadeIn("up", "spring", 0.5, 0.75)} className="bg-black/10 p-6 rounded-2xl shadow-sm">
+                <h4 className="font-bold text-gray-900 mb-2">Kaviya Shree</h4>
+                <p className="text-orange-600 font-semibold">Placed at Cognizant</p>
+              </motion.div>
+            </div>
           </motion.div>
+
         </motion.div>
       </div>
     </section>

@@ -81,12 +81,12 @@ const Portfolio = () => {
           />
 
           {/* Closed Positions Notice */}
-          <motion.div
+          {/* <motion.div
             variants={fadeIn("up", "tween", 0.1, 1)}
             className="mt-6 mb-12 text-center text-red-600 font-semibold text-lg"
           >
             All job openings are currently <span className="underline">closed</span>.
-          </motion.div>
+          </motion.div> */}
 
           <motion.div
             variants={fadeIn("up", "tween", 0.2, 1)}

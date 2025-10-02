@@ -73,12 +73,14 @@ const Services = () => {
                 key={index}
                 variants={fadeIn("up", "spring", index * 0.1, 0.75)}
               >
-                <ServiceCard
+                <a href="Contact">
+                  <ServiceCard
                   title={service.title}
                   description={service.description}
                   icon={service.icon}
                   features={service.features}
                 />
+                </a>
               </motion.div>
             ))}
           </div>

@@ -1,5 +1,5 @@
 import { Link } from "wouter";
-import { Code, Mail, MapPin, Linkedin } from "lucide-react";
+import { Code, Mail, MapPin, Linkedin, Phone } from "lucide-react";
 import logo from "@/assets/icons/logo.png";
 import name from "@/assets/icons/name.png";
 

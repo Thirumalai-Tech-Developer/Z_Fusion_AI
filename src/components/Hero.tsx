@@ -27,7 +27,9 @@ const Hero = () => {
               Innovative <span className="text-orange-500">AI Solutions</span> for Your Business
             </h1>
             <p className="text-lg md:text-xl text-gray-600 mb-8">
-              <span className="text-black font-extrabold">Z</span><span className="text-orange-500 font-extrabold">Fusion</span><span className="text-red-600 font-extrabold">AI</span> delivers cutting-edge technological solutions that transform how businesses operate, compete, and grow in the digital age.
+              <span className="text-black font-extrabold">Z</span>
+              <span className="text-orange-500 font-extrabold">Fusion</span>
+              <span className="text-red-600 font-extrabold">AI</span> delivers cutting-edge technological solutions that transform how businesses operate, compete, and grow in the digital age.
             </p>
             <div className="flex flex-col sm:flex-row justify-center lg:justify-start space-y-4 sm:space-y-0 sm:space-x-4">
               <Button size="lg" asChild>
@@ -38,12 +40,13 @@ const Hero = () => {
               </Button>
             </div>
           </motion.div>
+
+          {/* Hero Image */}
           <motion.div 
             variants={fadeIn("left", "tween", 0.2, 1)}
             className="flex justify-center lg:justify-end"
           >
             <div className="relative w-full max-w-lg">
-              {/* Abstract shapes for visual interest */}
               <div className="absolute top-0 -left-4 w-72 h-72 bg-purple-300 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob"></div>
               <div className="absolute top-0 -right-4 w-72 h-72 bg-orange-500 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob animation-delay-2000"></div>
               <div className="absolute -bottom-8 left-20 w-72 h-72 bg-blue-300 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob animation-delay-4000"></div>
@@ -60,82 +63,116 @@ const Hero = () => {
           </motion.div>
         </motion.div>
 
+        {/* Stats Section */}
         <motion.div 
           variants={fadeIn("up", "tween", 0.4, 1)}
           initial="hidden"
           whileInView="show"
           viewport={{ once: true, amount: 0.25 }}
-          className="grid grid-cols-2 md:grid-cols-3 gap-6 mt-16 lg:mt-24 bg-black/15 backdrop-blur-sm rounded-xl p-6 shadow-sm"
+          className="grid grid-cols-2 md:grid-cols-4 gap-6 mt-16 lg:mt-24 bg-black/15 backdrop-blur-sm rounded-xl p-6 shadow-sm"
         >
           <div className="text-center">
             <h3 className="text-4xl font-bold text-orange-500 mb-2">50+</h3>
             <p className="text-gray-950">Projects Completed</p>
           </div>
-
           <div className="text-center">
             <h3 className="text-4xl font-bold text-orange-500 mb-2">20+</h3>
             <p className="text-gray-950">Happy Clients</p>
           </div>
-
           <div className="text-center">
             <h3 className="text-4xl font-bold text-orange-500 mb-2">20+</h3>
             <p className="text-gray-950">Expert Team</p>
           </div>
+          <div className="text-center">
+            <h3 className="text-4xl font-bold text-orange-500 mb-2">5+</h3>
+            <p className="text-gray-950">Industries Served</p>
+          </div>
         </motion.div>
-        <br /><br />
+
+        {/* Why We Are */}
         <motion.div 
-            variants={fadeIn("right", "tween", 0.2, 1)}
-            className="text-left lg:text-left"
-          >
-            <div>
-              <h2 className="text-5xl md:text-6xl font-extrabold text-gray-900 leading-tight mb-6">
-                Why we are?
-              </h2>
-              <p className="text-lg md:text-xl text-gray-700 mb-10 leading-relaxed">
-                <br className="hidden md:block" />
-                We stand apart by offering a <span className="font-bold text-black">personalized, one-on-one expert consultation</span> before project confirmation — ensuring clarity, confidence, and alignment from day one.
-                <br /><br />
-                Our team blends deep domain expertise with creative thinking to deliver AI-powered, full-stack solutions tailored to your specific goals. From strategic planning to seamless deployment, we prioritize innovation, transparency, and measurable results.
-                <br /><br />
-                Whether you're a startup seeking rapid growth or an enterprise aiming for digital transformation, <span className="font-extrabold text-black">Z</span><span className="text-orange-600 font-extrabold">Fusion</span><span className="text-red-600 font-extrabold">AI</span> is your trusted partner for intelligent, scalable, and future-ready technology.
-              </p>
-            </div>
-          </motion.div>
-          <br />
-          <motion.div 
-            variants={fadeIn("right", "tween", 0.2, 1)}
-            className="text-left lg:text-left"
-          >
-            <div>
-              <h2 className="text-5xl md:text-6xl font-extrabold text-gray-900 leading-tight mb-6">
-                What We Do
-              </h2>
-              <p className="text-lg md:text-xl text-gray-700 mb-10 leading-relaxed">
-                We specialize in AI-driven solutions, full-stack development, and custom software tailored to your business goals. Our services include:
-              </p>
-              <ul className="list-disc pl-6 mt-4 text-lg text-gray-600">
-                <li>AI & Machine Learning Model Development</li>
-                <li>Web & Mobile App Development</li>
-                <li>Data Analysis & Visualization</li>
-                <li>Automation Solutions & API Integration</li>
-                <li>Cloud Deployment & DevOps</li>
-              </ul>
-            </div>
-          </motion.div>
-          <br />
-          <motion.div 
-            variants={fadeIn("right", "tween", 0.2, 1)}
-            className="text-left lg:text-left"
-          >
-            <div>
-              <h2 className="text-5xl md:text-6xl font-extrabold text-gray-900 leading-tight mb-6">
-                Meet the Team
-              </h2>
-              <p className="text-lg md:text-xl text-gray-700 mb-10 leading-relaxed">
-                Led by experienced founders <strong>Thirumalai Gunasekaran</strong> and <strong>Karthick C</strong>, our team consists of passionate engineers, data scientists, and innovators dedicated to solving real-world problems.
-              </p>
-            </div>
-          </motion.div>
+          variants={fadeIn("right", "tween", 0.2, 1)}
+          className="text-left mt-16"
+        >
+          <h2 className="text-5xl md:text-6xl font-extrabold text-gray-900 mb-6">
+            Why Choose Us?
+          </h2>
+          <p className="text-lg md:text-xl text-gray-700 mb-10 leading-relaxed">
+            We stand apart by offering a <span className="font-bold text-black">personalized, one-on-one expert consultation</span> before project confirmation — ensuring clarity, confidence, and alignment from day one.
+            <br /><br />
+            Our team blends deep domain expertise with creative thinking to deliver AI-powered, full-stack solutions tailored to your specific goals. From strategic planning to seamless deployment, we prioritize innovation, transparency, and measurable results.
+            <br /><br />
+            Whether you're a startup seeking rapid growth or an enterprise aiming for digital transformation, <span className="font-extrabold text-black">Z</span><span className="text-orange-600 font-extrabold">Fusion</span><span className="text-red-600 font-extrabold">AI</span> is your trusted partner for intelligent, scalable, and future-ready technology.
+          </p>
+        </motion.div>
+
+        {/* What We Do */}
+        <motion.div 
+          variants={fadeIn("right", "tween", 0.2, 1)}
+          className="text-left mt-12"
+        >
+          <h2 className="text-5xl md:text-6xl font-extrabold text-gray-900 mb-6">
+            What We Do
+          </h2>
+          <p className="text-lg md:text-xl text-gray-700 mb-10 leading-relaxed">
+            We specialize in AI-driven solutions, full-stack development, and custom software tailored to your business goals. Our services include:
+          </p>
+          <ul className="list-disc pl-6 mt-4 text-lg text-gray-600 space-y-2">
+            <li>AI & Machine Learning Model Development</li>
+            <li>Web & Mobile App Development</li>
+            <li>Data Analysis & Visualization</li>
+            <li>Automation Solutions & API Integration</li>
+            <li>Cloud Deployment & DevOps</li>
+          </ul>
+        </motion.div>
+
+        {/* Industries */}
+        <motion.div 
+          variants={fadeIn("right", "tween", 0.2, 1)}
+          className="text-left mt-12"
+        >
+          <h2 className="text-5xl md:text-6xl font-extrabold text-gray-900 mb-6">
+            Industries We Serve
+          </h2>
+          <p className="text-lg md:text-xl text-gray-700 mb-6">
+            Our solutions are tailored across multiple industries to ensure impactful results:
+          </p>
+          <ul className="list-disc pl-6 text-lg text-gray-600 space-y-2">
+            <li>Healthcare & Life Sciences</li>
+            <li>Finance & Banking</li>
+            <li>E-commerce & Retail</li>
+            <li>Education & Training</li>
+            <li>Manufacturing & Logistics</li>
+          </ul>
+        </motion.div>
+
+        {/* Vision & Mission */}
+        <motion.div 
+          variants={fadeIn("up", "tween", 0.2, 1)}
+          className="text-left mt-12"
+        >
+          <h2 className="text-5xl md:text-6xl font-extrabold text-gray-900 mb-6">
+            Our Vision & Mission
+          </h2>
+          <p className="text-lg md:text-xl text-gray-700 leading-relaxed">
+            <strong>Vision:</strong> To democratize AI and make advanced technologies accessible to every business, regardless of size.  
+            <br /><br />
+            <strong>Mission:</strong> To empower organizations with innovative AI-driven solutions that enhance efficiency, create value, and build a smarter future.
+          </p>
+        </motion.div>
+
+        {/*
+        <motion.div 
+          variants={fadeIn("right", "tween", 0.2, 1)}
+          className="text-left mt-12"
+        >
+          <h2 className="text-5xl md:text-6xl font-extrabold text-gray-900 mb-6">
+            Meet the Team
+          </h2>
+          <p className="text-lg md:text-xl text-gray-700 mb-10 leading-relaxed">
+            Led by experienced founders <strong>Thirumalai Gunasekaran</strong> and <strong>Karthick C</strong>, our team consists of passionate engineers, data scientists, and innovators dedicated to solving real-world problems.
+          </p>
+        </motion.div> */}
       </div>
     </section>
   );
