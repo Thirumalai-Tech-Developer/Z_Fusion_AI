@@ -19,7 +19,7 @@ import {
   FormLabel,
   FormMessage,
 } from "@/components/ui/form";
-import { Phone, Mail, MapPin, CheckCircle } from "lucide-react";
+import { Phone, Mail, MapPin, CheckCircle, Linkedin } from "lucide-react";
 
 const formSchema = z.object({
   name: z.string().min(2, { message: "Name must be at least 2 characters" }),
@@ -128,6 +128,24 @@ const Contact = () => {
                       <p className="text-gray-700">Marriyamman Kovil Street, Poottai, Sankarapuram, Kallakurichi, 606401</p>
                     </div>
                   </div>
+
+                  <div className="flex items-start space-x-4">
+                    <Linkedin className="text-orange-500 mt-1 flex-shrink-0" />
+                    <div>
+                      <h4 className="font-medium text-black">LinkedIn</h4>
+                      <p className="text-gray-700">
+                        <a 
+                          href="https://www.linkedin.com/company/107564860/" 
+                          target="_blank" 
+                          rel="noopener noreferrer" 
+                          className="underline hover:text-orange-500"
+                        >
+                          ZFusionAI
+                        </a>
+                      </p>
+                    </div>
+                  </div>
+
                 </div>
 
                 <div className="mt-8">
