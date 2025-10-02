@@ -1,5 +1,5 @@
 import { Link } from "wouter";
-import { Code, Mail, MapPin, Phone } from "lucide-react";
+import { Code, Mail, MapPin, Linkedin } from "lucide-react";
 import logo from "@/assets/icons/logo.png";
 import name from "@/assets/icons/name.png";
 
@@ -95,6 +95,16 @@ const Footer = () => {
               <div className="flex items-center">
                 <Mail size={20} className="text-orange-500 mr-3 flex-shrink-0" />
                 <span className="text-gray-400">zfusionai@gmail.com</span>
+              </div>
+              <div className="flex items-center">
+                <Linkedin size={20} className="text-orange-500 mr-3 flex-shrink-0" />
+                <span className="text-gray-400">                        <a 
+                          href="https://www.linkedin.com/company/107564860/" 
+                          rel="noopener noreferrer" 
+                          className="hover:text-orange-500"
+                        >
+                          ZFusionAI
+                </a></span>
               </div>
             </div>
           </div>

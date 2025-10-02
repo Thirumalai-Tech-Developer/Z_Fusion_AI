@@ -136,9 +136,8 @@ const Contact = () => {
                       <p className="text-gray-700">
                         <a 
                           href="https://www.linkedin.com/company/107564860/" 
-                          target="_blank" 
                           rel="noopener noreferrer" 
-                          className="underline hover:text-orange-500"
+                          className="hover:text-orange-500"
                         >
                           ZFusionAI
                         </a>
