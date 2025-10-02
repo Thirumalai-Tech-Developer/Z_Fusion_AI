@@ -125,7 +125,7 @@ const Contact = () => {
                     <MapPin className="text-orange-500 mt-1 flex-shrink-0" />
                     <div>
                       <h4 className="font-medium text-black">Office</h4>
-                      <p className="text-gray-700">Remote</p>
+                      <p className="text-gray-700">Marriyamman Kovil Street, Poottai, Sankarapuram, Kallakurichi, 606401</p>
                     </div>
                   </div>
                 </div>

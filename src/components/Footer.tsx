@@ -90,7 +90,7 @@ const Footer = () => {
             <div className="space-y-3">
               <div className="flex items-start">
                 <MapPin size={20} className="text-orange-500 mt-1 mr-3 flex-shrink-0" />
-                <span className="text-gray-400">Remote</span>
+                <span className="text-gray-400">Marriyamman Kovil Street, Poottai, Sankarapuram, Kallakurichi, 606401</span>
               </div>
               <div className="flex items-center">
                 <Mail size={20} className="text-orange-500 mr-3 flex-shrink-0" />
