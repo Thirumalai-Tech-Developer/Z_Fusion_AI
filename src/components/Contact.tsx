@@ -117,7 +117,15 @@ const Contact = () => {
                     <Mail className="text-orange-500 mt-1 flex-shrink-0" />
                     <div>
                       <h4 className="font-medium text-black">Email</h4>
-                      <p className="text-gray-700">zfusionai@gmail.com</p>
+                      <p className="text-gray-700">support@zfusionai.info</p>
+                    </div>
+                  </div>
+
+                  <div className="flex items-start space-x-4">
+                    <Phone className="text-orange-500 mt-1 flex-shrink-0" />
+                    <div>
+                      <h4 className="font-medium text-black">Phone Number</h4>
+                      <p className="text-gray-700">+91 7094389742</p>
                     </div>
                   </div>
                   
@@ -125,7 +133,7 @@ const Contact = () => {
                     <MapPin className="text-orange-500 mt-1 flex-shrink-0" />
                     <div>
                       <h4 className="font-medium text-black">Office</h4>
-                      <p className="text-gray-700">Marriyamman Kovil Street, Poottai, Sankarapuram, Kallakurichi, 606401</p>
+                      <p className="text-gray-700">Kallakurichi, TamilNadu, 606401</p>
                     </div>
                   </div>
 
