@@ -3,34 +3,36 @@ import { fadeIn } from "@/lib/motion";
 import SectionHeading from "@/components/ui/section-heading";
 import { useEffect } from "react";
 
-const TeamsandConditions = () => {
+const Privacy = () => {
+
+    // PrivacyPolicy.jsx
     useEffect(() => {
-    document.title = "Terms & Conditions | ZFusionAI";
+    document.title = "Privacy Policy | ZFusionAI";
     }, []);
+
   return (
     <section 
-      id="termsandconditions" 
+      id="privacyandpolicy" 
       className="relative pt-32 pb-20 md:pt-36 md:pb-24 bg-orange-50"
     >
-      <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <SectionHeading
-            title="Terms and Conditions"
+            title="Privacy Policy"
             subtitle=""
+            
           />
+      <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         {/* Why We Are */}
         <motion.div 
           variants={fadeIn("right", "tween", 0.2, 1)}
           className="text-left mt-16"
         >
           <h2 className="text-5xl md:text-6xl font-extrabold text-gray-900 mb-6">
-            Introduction
+            Overview
           </h2>
           <p className="text-lg md:text-xl text-gray-700 mb-10 leading-relaxed">
-            Welcome to <span className="font-extrabold text-black">Z</span><span className="text-orange-600 font-extrabold">Fusion</span><span className="text-red-600 font-extrabold">AI</span> (“we,” “our,” or “us”).
+            <span className="font-extrabold text-black">Z</span><span className="text-orange-600 font-extrabold">Fusion</span><span className="text-red-600 font-extrabold">AI</span> respects your privacy.
             <br />
-            By using our website <b>zfusionai.info</b> or any of our services, you agree to follow these <b>Terms and Conditions</b>.
-            <br />
-            If you disagree with any part, please do not access or use our website.
+            This Privacy Policy explains how we handle your information when you visit our website or use our services.
           </p>
 
         </motion.div>
@@ -40,17 +42,15 @@ const TeamsandConditions = () => {
           className="text-left mt-16"
         >
           <h2 className="text-5xl md:text-6xl font-extrabold text-gray-900 mb-6">
-            Use of the Website
+            Information We Collect
           </h2>
           <p className="text-lg md:text-xl text-gray-700 mb-10 leading-relaxed">
-            You agree:
+            We may collect:
             <br />
             <ol className="list-disc list-inside space-y-2 my-4">
-                <li>To use this site only for lawful purposes.</li>
-                <li>Not to attempt hacking, reverse engineering, or unauthorized access.</li>
-                <li>Not to copy, modify, or distribute any content without permission.</li>
+                <li>Personal details: name, email, phone (via forms).</li>
+                <li>Communication details for inquiries or training registration.</li>
             </ol>
-            We reserve the right to restrict access or terminate user accounts for violations.
           </p>
 
         </motion.div>
@@ -60,31 +60,18 @@ const TeamsandConditions = () => {
           className="text-left mt-16"
         >
           <h2 className="text-5xl md:text-6xl font-extrabold text-gray-900 mb-6">
-            Intellectual Property
+            How We Use Your Data
           </h2>
           <p className="text-lg md:text-xl text-gray-700 mb-10 leading-relaxed">
-            All content, graphics, software, and code on this website belong to <span className="font-extrabold text-black">Z</span><span className="text-orange-600 font-extrabold">Fusion</span><span className="text-red-600 font-extrabold">AI</span>.
-            <br />
-            You may not reuse or reproduce any material without written consent.
-          </p>
-
-        </motion.div>
-
-        <motion.div 
-          variants={fadeIn("right", "tween", 0.2, 1)}
-          className="text-left mt-16"
-        >
-          <h2 className="text-5xl md:text-6xl font-extrabold text-gray-900 mb-6">
-            Services
-          </h2>
-          <p className="text-lg md:text-xl text-gray-700 mb-10 leading-relaxed">
-            ZFusionAI offers:
+            We use your data to:
             <br />
             <ol className="list-disc list-inside space-y-2 my-4">
-                <li>Software-based services and AI/ML solutions.</li>
-                <li>Training and placement assistance.</li>
+                <li>Respond to inquiries and service requests.</li>
+                <li>Improve our website and user experience.</li>
+                <li>Provide updates related to our services (if you consent).</li>
+                <li>Ensure website security and functionality.</li>
             </ol>
-            We may modify or discontinue any service without prior notice.
+            We do not <b>sell, rent, or trade</b> your information to third parties.
           </p>
 
         </motion.div>
@@ -94,15 +81,44 @@ const TeamsandConditions = () => {
           className="text-left mt-16"
         >
           <h2 className="text-5xl md:text-6xl font-extrabold text-gray-900 mb-6">
-            Limitation of Liability
+            Cookies
           </h2>
           <p className="text-lg md:text-xl text-gray-700 mb-10 leading-relaxed">
-            ZFusionAI shall not be liable for any indirect, incidental, or consequential damages resulting from:
+            We may use cookies and analytics tools to understand website usage.
+            <br />
+            You can disable cookies through your browser settings.
+          </p>
+
+        </motion.div>
+
+        <motion.div 
+          variants={fadeIn("right", "tween", 0.2, 1)}
+          className="text-left mt-16"
+        >
+          <h2 className="text-5xl md:text-6xl font-extrabold text-gray-900 mb-6">
+            Third-Party Links
+          </h2>
+          <p className="text-lg md:text-xl text-gray-700 mb-10 leading-relaxed">
+            Our website may contain links to other sites.
+            <br />
+            We are not responsible for their privacy policies or content.
+          </p>
+
+        </motion.div>
+
+        <motion.div 
+          variants={fadeIn("right", "tween", 0.2, 1)}
+          className="text-left mt-16"
+        >
+          <h2 className="text-5xl md:text-6xl font-extrabold text-gray-900 mb-6">
+            Your Rights
+          </h2>
+          <p className="text-lg md:text-xl text-gray-700 mb-10 leading-relaxed">
+            You can:
             <br />
             <ol className="list-disc list-inside space-y-2 my-4">
-                <li>The use or inability to use our services.</li>
-                <li>Data loss, service interruptions, or system issues.</li>
-                <li>Any third-party service linked through our website.</li>
+                <li>Request to view, edit, or delete your personal data.</li>
+                <li>Withdraw consent for communication.</li>
             </ol>
             All services are provided “as is,” without warranties.
           </p>
@@ -114,10 +130,12 @@ const TeamsandConditions = () => {
           className="text-left mt-16"
         >
           <h2 className="text-5xl md:text-6xl font-extrabold text-gray-900 mb-6">
-            Governing Law
+            Changes
           </h2>
           <p className="text-lg md:text-xl text-gray-700 mb-10 leading-relaxed">
-            These Terms are governed by the laws of India, with jurisdiction in <b>Tamil Nadu, India</b>.
+            We may update this policy from time to time.
+            <br />
+            The latest version will always be available on this page.
           </p>
 
         </motion.div>
@@ -139,4 +157,4 @@ const TeamsandConditions = () => {
   )
 }
 
-export default TeamsandConditions
+export default Privacy
