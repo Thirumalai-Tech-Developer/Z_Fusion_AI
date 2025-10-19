@@ -20,6 +20,18 @@ const Footer = () => {
             </Link>
             <p className="text-gray-400 mb-4">
               Delivering innovative AI solutions and cutting-edge technical services to power your business success.
+              <br /><br />
+              <ol className="space-y-2 list-disc list-inside">
+                <li>
+                  <Link href="Teams" className="text-gray-400 hover:text-orange-500 transition-colors">Terms and Conditions</Link>
+                </li>
+                <li>
+                  <Link href="Services" className="text-gray-400 hover:text-orange-500 transition-colors">Services</Link>
+                </li>
+                <li>
+                  <Link href="Career" className="text-gray-400 hover:text-orange-500 transition-colors">Career</Link>
+                </li>
+              </ol>
             </p>
             {/* <div className="flex space-x-4">
               <a href="#" className="text-gray-400 hover:text-orange-500 transition-colors">

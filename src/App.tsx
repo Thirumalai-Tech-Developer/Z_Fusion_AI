@@ -9,6 +9,7 @@ import AboutUS from "@/pages/AboutUS";
 import Service from "@/pages/Service";
 import Careers from "@/pages/Career";
 import ContactUS from "@/pages/ContactUS";
+import TeamsandConditions from "./components/TeamsandConditions";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 
@@ -21,6 +22,7 @@ function Router() {
       <Route path="/Services" component={Service} />
       <Route path="/Career" component={Careers} />
       <Route path="/Contact" component={ContactUS} />
+      <Route path="/Teams" component={TeamsandConditions} />
       <Route component={NotFound} />
     </Switch>
   );
