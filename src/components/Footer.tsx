@@ -94,7 +94,12 @@ const Footer = () => {
               </div>
               <div className="flex items-center">
                 <Mail size={20} className="text-orange-500 mr-3 flex-shrink-0" />
-                <span className="text-gray-400">support@zfusionai.info</span>
+                <a
+                  href="mailto:support@zfusionai.info?subject=Inquiry%20from%20ZFusionAI%20Website&body=Hello%20Team%20ZFusionAI%2C"
+                  className="text-gray-400 hover:text-orange-400 transition-colors"
+                >
+                  support@zfusionai.info
+                </a>
               </div>
               <div className="flex items-center">
                 <Phone size={20} className="text-orange-500 mr-3 flex-shrink-0" />

@@ -117,7 +117,12 @@ const Contact = () => {
                     <Mail className="text-orange-500 mt-1 flex-shrink-0" />
                     <div>
                       <h4 className="font-medium text-black">Email</h4>
-                      <p className="text-gray-700">support@zfusionai.info</p>
+                      <a
+                        href="mailto:support@zfusionai.info?subject=Inquiry%20from%20ZFusionAI%20Website&body=Hello%20Team%20ZFusionAI%2C"
+                        className="text-gray-700 hover:text-orange-400 transition-colors"
+                      >
+                        support@zfusionai.info
+                      </a>
                     </div>
                   </div>
 
