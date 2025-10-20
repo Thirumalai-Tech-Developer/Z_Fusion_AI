@@ -121,7 +121,7 @@ const Footer = () => {
 
         <div className="border-t border-gray-800 mt-8 pt-6 text-center text-gray-400 text-sm">
           <p>
-            &copy; {currentYear} ZFusionAI. All rights reserved. |{" "}
+            Copyright &copy; {currentYear} ZFusionAI. All rights reserved. |{" "}
             <a href="/termsandconditions" className="text-blue-400 hover:text-orange-500 transition">
               Terms
             </a>{" "}
